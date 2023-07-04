@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrusel de imagenes</title>
+    <link rel="stylesheet" href="styles/styles1.css">
+    <link rel="stylesheet" href="styles/styles2.css">
+</head>
+<body>
+    <!--Navegación-->
+    <header>
+        <h3>LOGO</h3>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Contact</a>
+            <a href="#">🌍</a>
+        </nav>
+    </header>
+<!--Contenido-->
+    <main>
+        <picture>
+            <img class="chica" src="images/13.png" alt="">
+            <h2>Hello, my name is ...</h2>
+            <p>!Bienvenid@ a mi portafolio de fotografía¡ Soy una fotografa apasionada
+                y me encanta capturar momentos únicos e inolvidables a través de mi cámara. 
+            </p>
+            <a class="rusel" href="#carrusel">Algunos de mis trabajos →</a>
+        </picture>
+<!--Carrusel-->
+        <picture id="carrusel">
+            <div class="boton">
+                <button onclick="update(-1)" class="der"><img src="images/chevron-left-solid.svg" alt=""></button>
+                <button onclick="update(1)" class="izq"><img src="images/chevron-right-solid.svg" alt=""></button>
+            </div>
+            <img class="imag" src="images/1.png">
+            <img class="imag" src="images/2.png">
+            <img class="imag" src="images/3.png">
+            <img class="imag" src="images/4.png">
+            <img class="imag" src="images/5.png">
+            <img class="imag" src="images/6.png">
+            <img class="imag" src="images/7.png">
+            <img class="imag" src="images/8.png">
+            <img class="imag" src="images/9.png">
+            <img class="imag" src="images/10.png">
+            <img class="imag" src="images/11.png">
+            <img class="imag" src="images/12.png">
+        </picture>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>
