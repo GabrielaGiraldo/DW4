@@ -6,6 +6,15 @@ html {
     scroll-behavior: smooth;
 }
 
+html ::-webkit-scrollbar {
+    width: 5px;
+}
+
+html ::-webkit-scrollbar-thumb {
+    background: #e63d00;
+    border-radius: 4px;
+}
+
 body {
     width: 100%;
     background-color: #f3f3ea;
